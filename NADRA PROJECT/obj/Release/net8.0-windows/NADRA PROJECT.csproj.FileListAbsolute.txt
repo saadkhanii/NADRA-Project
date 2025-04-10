@@ -1,0 +1,272 @@
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\bin\Release\net8.0-windows\NADRA PROJECT.exe
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\bin\Release\net8.0-windows\NADRA PROJECT.deps.json
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\bin\Release\net8.0-windows\NADRA PROJECT.runtimeconfig.json
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\bin\Release\net8.0-windows\NADRA PROJECT.dll
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\bin\Release\net8.0-windows\NADRA PROJECT.pdb
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\bin\Release\net8.0-windows\BouncyCastle.Cryptography.dll
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\bin\Release\net8.0-windows\Google.Protobuf.dll
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\bin\Release\net8.0-windows\K4os.Compression.LZ4.dll
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\bin\Release\net8.0-windows\K4os.Compression.LZ4.Streams.dll
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\bin\Release\net8.0-windows\K4os.Hash.xxHash.dll
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\bin\Release\net8.0-windows\MySql.Data.dll
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\bin\Release\net8.0-windows\System.IO.Pipelines.dll
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\bin\Release\net8.0-windows\ZstdSharp.dll
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\bin\Release\net8.0-windows\runtimes\win-x64\native\comerr64.dll
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\bin\Release\net8.0-windows\runtimes\win-x64\native\gssapi64.dll
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\bin\Release\net8.0-windows\runtimes\win-x64\native\k5sprt64.dll
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\bin\Release\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\bin\Release\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\obj\Release\net8.0-windows\NADRA PROJECT.csproj.AssemblyReference.cache
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\obj\Release\net8.0-windows\AboutNADRA.g.cs
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\obj\Release\net8.0-windows\Complaints.g.cs
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\obj\Release\net8.0-windows\ConfirmationDialog.g.cs
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\obj\Release\net8.0-windows\ContactUs.g.cs
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\obj\Release\net8.0-windows\CRC_Form.g.cs
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\obj\Release\net8.0-windows\CRC_Page.g.cs
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\obj\Release\net8.0-windows\FRC_Form.g.cs
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\obj\Release\net8.0-windows\FRC_Page.g.cs
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\obj\Release\net8.0-windows\JVC_Form.g.cs
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\obj\Release\net8.0-windows\JVC_Page.g.cs
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\obj\Release\net8.0-windows\LoginPage.g.cs
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\obj\Release\net8.0-windows\NICOP_Form.g.cs
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\obj\Release\net8.0-windows\NICOP_Page.g.cs
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\obj\Release\net8.0-windows\NIC_Form.g.cs
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\obj\Release\net8.0-windows\NIC_Page.g.cs
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\obj\Release\net8.0-windows\POC_Form.g.cs
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\obj\Release\net8.0-windows\POC_Page.g.cs
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\obj\Release\net8.0-windows\SignUpPage.g.cs
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\obj\Release\net8.0-windows\SplashScreen.g.cs
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\obj\Release\net8.0-windows\WelcomeScreen.g.cs
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\obj\Release\net8.0-windows\App.g.cs
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\obj\Release\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\obj\Release\net8.0-windows\NADRA PROJECT_MarkupCompile.cache
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\obj\Release\net8.0-windows\NADRA PROJECT_MarkupCompile.lref
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\obj\Release\net8.0-windows\AboutNADRA.baml
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\obj\Release\net8.0-windows\Complaints.baml
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\obj\Release\net8.0-windows\ConfirmationDialog.baml
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\obj\Release\net8.0-windows\ContactUs.baml
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\obj\Release\net8.0-windows\CRC_Form.baml
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\obj\Release\net8.0-windows\CRC_Page.baml
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\obj\Release\net8.0-windows\FRC_Form.baml
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\obj\Release\net8.0-windows\FRC_Page.baml
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\obj\Release\net8.0-windows\JVC_Form.baml
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\obj\Release\net8.0-windows\JVC_Page.baml
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\obj\Release\net8.0-windows\LoginPage.baml
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\obj\Release\net8.0-windows\NICOP_Form.baml
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\obj\Release\net8.0-windows\NICOP_Page.baml
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\obj\Release\net8.0-windows\NIC_Form.baml
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\obj\Release\net8.0-windows\NIC_Page.baml
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\obj\Release\net8.0-windows\POC_Form.baml
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\obj\Release\net8.0-windows\POC_Page.baml
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\obj\Release\net8.0-windows\SignUpPage.baml
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\obj\Release\net8.0-windows\SplashScreen.baml
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\obj\Release\net8.0-windows\WelcomeScreen.baml
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\obj\Release\net8.0-windows\NADRA PROJECT.g.resources
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\obj\Release\net8.0-windows\NADRA PROJECT.GeneratedMSBuildEditorConfig.editorconfig
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\obj\Release\net8.0-windows\NADRA PROJECT.AssemblyInfoInputs.cache
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\obj\Release\net8.0-windows\NADRA PROJECT.AssemblyInfo.cs
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\obj\Release\net8.0-windows\NADRA PROJECT.csproj.CoreCompileInputs.cache
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\obj\Release\net8.0-windows\NADRA PR.3BE3B4A3.Up2Date
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\obj\Release\net8.0-windows\NADRA PROJECT.dll
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\obj\Release\net8.0-windows\refint\NADRA PROJECT.dll
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\obj\Release\net8.0-windows\NADRA PROJECT.pdb
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\obj\Release\net8.0-windows\NADRA PROJECT.genruntimeconfig.cache
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\obj\Release\net8.0-windows\ref\NADRA PROJECT.dll
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\obj\Release\net8.0-windows\Admin_Dashboard.g.cs
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\obj\Release\net8.0-windows\User_Dashboard.g.cs
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\obj\Release\net8.0-windows\Admin_Dashboard.baml
+D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\obj\Release\net8.0-windows\User_Dashboard.baml
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\NADRA PROJECT.exe
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\NADRA PROJECT.deps.json
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\NADRA PROJECT.runtimeconfig.json
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\NADRA PROJECT.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\NADRA PROJECT.pdb
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\Microsoft.Build.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\Microsoft.Build.Framework.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\Microsoft.Data.SqlClient.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\Microsoft.Data.Tools.Components.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\Microsoft.Data.Tools.Contracts.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\Microsoft.Data.Tools.Schema.Tasks.Sql.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\Microsoft.Data.Tools.Schema.Utilities.Sql.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\Microsoft.SqlServer.ConnectionInfo.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\Microsoft.SqlServer.SqlClrProvider.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\SqlPackage.exe
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\Microsoft.Identity.Client.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\Microsoft.Data.Tools.Schema.Sql.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\Microsoft.Data.Tools.Utilities.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\Microsoft.SqlServer.Dac.Extensions.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\Microsoft.SqlServer.Dac.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\Microsoft.SqlServer.TransactSql.ScriptDom.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\Microsoft.SqlServer.Types.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\Newtonsoft.Json.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\System.ComponentModel.Composition.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\System.Runtime.Caching.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\de-DE\Microsoft.Data.Tools.Components.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\de-DE\Microsoft.Data.Tools.Schema.Tasks.Sql.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\de-DE\Microsoft.Data.Tools.Schema.Utilities.Sql.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\de-DE\SqlPackage.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\es-ES\Microsoft.Data.Tools.Components.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\es-ES\Microsoft.Data.Tools.Schema.Tasks.Sql.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\es-ES\Microsoft.Data.Tools.Schema.Utilities.Sql.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\es-ES\SqlPackage.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\fr-FR\Microsoft.Data.Tools.Components.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\fr-FR\Microsoft.Data.Tools.Schema.Tasks.Sql.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\fr-FR\Microsoft.Data.Tools.Schema.Utilities.Sql.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\fr-FR\SqlPackage.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\it-IT\Microsoft.Data.Tools.Components.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\it-IT\Microsoft.Data.Tools.Schema.Tasks.Sql.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\it-IT\Microsoft.Data.Tools.Schema.Utilities.Sql.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\it-IT\SqlPackage.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\ja-JP\Microsoft.Data.Tools.Components.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\ja-JP\Microsoft.Data.Tools.Schema.Tasks.Sql.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\ja-JP\Microsoft.Data.Tools.Schema.Utilities.Sql.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\ja-JP\SqlPackage.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\ko-KR\Microsoft.Data.Tools.Components.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\ko-KR\Microsoft.Data.Tools.Schema.Tasks.Sql.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\ko-KR\Microsoft.Data.Tools.Schema.Utilities.Sql.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\ko-KR\SqlPackage.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\pt-BR\Microsoft.Data.Tools.Components.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\pt-BR\Microsoft.Data.Tools.Schema.Tasks.Sql.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\pt-BR\Microsoft.Data.Tools.Schema.Utilities.Sql.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\pt-BR\SqlPackage.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\ru-RU\Microsoft.Data.Tools.Components.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\ru-RU\Microsoft.Data.Tools.Schema.Tasks.Sql.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\ru-RU\Microsoft.Data.Tools.Schema.Utilities.Sql.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\ru-RU\SqlPackage.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\zh-Hans\Microsoft.Data.Tools.Components.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\zh-Hans\Microsoft.Data.Tools.Schema.Tasks.Sql.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\zh-Hans\Microsoft.Data.Tools.Schema.Utilities.Sql.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\zh-Hans\SqlPackage.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\zh-Hant\Microsoft.Data.Tools.Components.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\zh-Hant\Microsoft.Data.Tools.Schema.Tasks.Sql.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\zh-Hant\Microsoft.Data.Tools.Schema.Utilities.Sql.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\zh-Hant\SqlPackage.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\de-DE\Microsoft.Data.Tools.Schema.Sql.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\de-DE\Microsoft.Data.Tools.Utilities.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\de-DE\Microsoft.SqlServer.Dac.Extensions.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\de-DE\Microsoft.SqlServer.Dac.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\de-DE\Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\es-ES\Microsoft.Data.Tools.Schema.Sql.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\es-ES\Microsoft.Data.Tools.Utilities.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\es-ES\Microsoft.SqlServer.Dac.Extensions.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\es-ES\Microsoft.SqlServer.Dac.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\es-ES\Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\fr-FR\Microsoft.Data.Tools.Schema.Sql.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\fr-FR\Microsoft.Data.Tools.Utilities.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\fr-FR\Microsoft.SqlServer.Dac.Extensions.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\fr-FR\Microsoft.SqlServer.Dac.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\fr-FR\Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\it-IT\Microsoft.Data.Tools.Schema.Sql.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\it-IT\Microsoft.Data.Tools.Utilities.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\it-IT\Microsoft.SqlServer.Dac.Extensions.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\it-IT\Microsoft.SqlServer.Dac.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\it-IT\Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\ja-JP\Microsoft.Data.Tools.Schema.Sql.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\ja-JP\Microsoft.Data.Tools.Utilities.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\ja-JP\Microsoft.SqlServer.Dac.Extensions.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\ja-JP\Microsoft.SqlServer.Dac.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\ja-JP\Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\ko-KR\Microsoft.Data.Tools.Schema.Sql.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\ko-KR\Microsoft.Data.Tools.Utilities.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\ko-KR\Microsoft.SqlServer.Dac.Extensions.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\ko-KR\Microsoft.SqlServer.Dac.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\ko-KR\Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\pt-BR\Microsoft.Data.Tools.Schema.Sql.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\pt-BR\Microsoft.Data.Tools.Utilities.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\pt-BR\Microsoft.SqlServer.Dac.Extensions.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\pt-BR\Microsoft.SqlServer.Dac.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\pt-BR\Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\ru-RU\Microsoft.Data.Tools.Schema.Sql.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\ru-RU\Microsoft.Data.Tools.Utilities.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\ru-RU\Microsoft.SqlServer.Dac.Extensions.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\ru-RU\Microsoft.SqlServer.Dac.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\ru-RU\Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\zh-CN\Microsoft.Data.Tools.Schema.Sql.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\zh-CN\Microsoft.Data.Tools.Utilities.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\zh-CN\Microsoft.SqlServer.Dac.Extensions.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\zh-CN\Microsoft.SqlServer.Dac.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\zh-CN\Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\zh-TW\Microsoft.Data.Tools.Schema.Sql.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\zh-TW\Microsoft.Data.Tools.Utilities.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\zh-TW\Microsoft.SqlServer.Dac.Extensions.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\zh-TW\Microsoft.SqlServer.Dac.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\zh-TW\Microsoft.SqlServer.TransactSql.ScriptDom.resources.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\runtimes\win-arm64\native\sni.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\runtimes\win-x64\native\sni.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\runtimes\win-x86\native\sni.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\bin\Release\net8.0-windows\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\obj\Release\net8.0-windows\NADRA PROJECT.csproj.AssemblyReference.cache
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\obj\Release\net8.0-windows\Admin_Dashboard.baml
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\obj\Release\net8.0-windows\AboutNADRA.g.cs
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\obj\Release\net8.0-windows\Admin_Dashboard.g.cs
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\obj\Release\net8.0-windows\Careers.g.cs
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\obj\Release\net8.0-windows\Complaints.g.cs
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\obj\Release\net8.0-windows\ConfirmationDialog.g.cs
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\obj\Release\net8.0-windows\ContactUs.g.cs
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\obj\Release\net8.0-windows\CRC_Form.g.cs
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\obj\Release\net8.0-windows\CRC_Page.g.cs
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\obj\Release\net8.0-windows\FRC_Form.g.cs
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\obj\Release\net8.0-windows\FRC_Page.g.cs
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\obj\Release\net8.0-windows\JVC_Form.g.cs
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\obj\Release\net8.0-windows\JVC_Page.g.cs
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\obj\Release\net8.0-windows\LoginPage.g.cs
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\obj\Release\net8.0-windows\Media.g.cs
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\obj\Release\net8.0-windows\NICOP_Form.g.cs
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\obj\Release\net8.0-windows\NICOP_Page.g.cs
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\obj\Release\net8.0-windows\NIC_Form.g.cs
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\obj\Release\net8.0-windows\NIC_Page.g.cs
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\obj\Release\net8.0-windows\Offices.g.cs
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\obj\Release\net8.0-windows\POC_Form.g.cs
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\obj\Release\net8.0-windows\POC_Page.g.cs
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\obj\Release\net8.0-windows\SignUpPage.g.cs
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\obj\Release\net8.0-windows\SplashScreen.g.cs
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\obj\Release\net8.0-windows\User_Dashboard.g.cs
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\obj\Release\net8.0-windows\WelcomeScreen.g.cs
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\obj\Release\net8.0-windows\App.g.cs
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\obj\Release\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\obj\Release\net8.0-windows\NADRA PROJECT_MarkupCompile.cache
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\obj\Release\net8.0-windows\NADRA PROJECT_MarkupCompile.lref
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\obj\Release\net8.0-windows\AboutNADRA.baml
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\obj\Release\net8.0-windows\Careers.baml
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\obj\Release\net8.0-windows\Complaints.baml
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\obj\Release\net8.0-windows\ConfirmationDialog.baml
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\obj\Release\net8.0-windows\ContactUs.baml
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\obj\Release\net8.0-windows\CRC_Form.baml
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\obj\Release\net8.0-windows\CRC_Page.baml
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\obj\Release\net8.0-windows\FRC_Form.baml
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\obj\Release\net8.0-windows\FRC_Page.baml
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\obj\Release\net8.0-windows\JVC_Form.baml
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\obj\Release\net8.0-windows\JVC_Page.baml
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\obj\Release\net8.0-windows\LoginPage.baml
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\obj\Release\net8.0-windows\Media.baml
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\obj\Release\net8.0-windows\NICOP_Form.baml
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\obj\Release\net8.0-windows\NICOP_Page.baml
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\obj\Release\net8.0-windows\NIC_Form.baml
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\obj\Release\net8.0-windows\NIC_Page.baml
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\obj\Release\net8.0-windows\Offices.baml
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\obj\Release\net8.0-windows\POC_Form.baml
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\obj\Release\net8.0-windows\POC_Page.baml
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\obj\Release\net8.0-windows\SignUpPage.baml
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\obj\Release\net8.0-windows\SplashScreen.baml
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\obj\Release\net8.0-windows\User_Dashboard.baml
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\obj\Release\net8.0-windows\WelcomeScreen.baml
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\obj\Release\net8.0-windows\NADRA PROJECT.g.resources
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\obj\Release\net8.0-windows\NADRA PROJECT.GeneratedMSBuildEditorConfig.editorconfig
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\obj\Release\net8.0-windows\NADRA PROJECT.AssemblyInfoInputs.cache
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\obj\Release\net8.0-windows\NADRA PROJECT.AssemblyInfo.cs
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\obj\Release\net8.0-windows\NADRA PROJECT.csproj.CoreCompileInputs.cache
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\obj\Release\net8.0-windows\NADRA PR.3BE3B4A3.Up2Date
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\obj\Release\net8.0-windows\NADRA PROJECT.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\obj\Release\net8.0-windows\refint\NADRA PROJECT.dll
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\obj\Release\net8.0-windows\NADRA PROJECT.pdb
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\obj\Release\net8.0-windows\NADRA PROJECT.genruntimeconfig.cache
+D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\obj\Release\net8.0-windows\ref\NADRA PROJECT.dll

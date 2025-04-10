@@ -1,0 +1,126 @@
+﻿<Window x:Class="NADRA_PROJECT.User_Dashboard"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NADRA_PROJECT"
+        mc:Ignorable="d"
+        Title="User Dashboard" Height="1080" Width="1920" WindowState="Maximized" Icon="/pakistan-govt-logo.png" >
+    <Window.Background>
+        <ImageBrush ImageSource="D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\pictures\dashboard.png" Stretch="Fill"></ImageBrush>
+    </Window.Background>
+
+    <Window.Resources>
+        <Style x:Key="ButtonStyle" TargetType="Button">
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="BorderThickness" Value="0,0,0,0"/>
+            <Setter Property="Height" Value="35"/>
+        </Style>
+        <Style x:Key="NameBlockStyle" TargetType="TextBlock">
+            <Setter Property="Foreground" Value="#009846"/>
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="FontFamily" Value="Arial Black"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Width" Value="170"/>
+            <Setter Property="Margin" Value="20,20,0,0"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Height" Value="30"/>
+            <Setter Property="TextWrapping" Value="Wrap"/>
+        </Style>
+    </Window.Resources>
+
+    <Grid>
+        <Menu HorizontalAlignment="Left" 
+              VerticalAlignment="Top" 
+              Height="35"  Width="1920"
+              Background="#FF009846" FontFamily="Arial" 
+              FontSize="14" FontWeight="Bold">
+            
+            <Button Name="about" Content="About NADRA" 
+                    Style="{StaticResource ButtonStyle}" 
+                    Click="about_Click"/>
+            <Button Name="media" Content="Media"
+                    Style="{StaticResource ButtonStyle}"
+                    Click="media_Click"/>
+            <Button Name="complaints" Content="Complaints"
+                    Style="{StaticResource ButtonStyle}" 
+                    Click="complaints_Click"/>
+            <Button Name="careers" Content="Careers"
+                    Style="{StaticResource ButtonStyle}" Click="careers_Click"/>
+            <Button Name="offices" Content="Offices"
+                    Style="{StaticResource ButtonStyle}" Click="offices_Click"/>
+            <Button Name="contactUs" Content="Contact us"
+                    Style="{StaticResource ButtonStyle}" 
+                    Click="contactUs_Click"/> 
+            <Button Name="exit" Content="Exit"
+                    Style="{StaticResource ButtonStyle}" Click="exit_Click" 
+                    />
+        </Menu>
+        
+        <Grid VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,50,0,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="310"></RowDefinition>
+                <RowDefinition Height="310"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="290"></ColumnDefinition>
+                <ColumnDefinition Width="290"></ColumnDefinition>
+                <ColumnDefinition Width="290"></ColumnDefinition> 
+            </Grid.ColumnDefinitions>
+            
+            <StackPanel Name="NIC" Background="White" Grid.Column="0" Grid.Row="0" Margin="5,0,5,5" Cursor="Hand" MouseEnter="NIC_MouseEnter" MouseLeave="NIC_MouseLeave" MouseLeftButtonDown="NIC_MouseLeftButtonDown">
+                <Image Source="D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\pictures\NIC.jpg"  Height="186"/>
+                <TextBlock  Text="National Identity Card" 
+                            Style="{StaticResource NameBlockStyle}"></TextBlock>
+                <TextBlock Foreground="Black" Background="Transparent" FontFamily="Arial" 
+                           Text="National Identity Card (NIC) is issued to the citizens of Pakistan." 
+                           HorizontalAlignment="Left" Margin="20,5,0,0" Width="236"  Height="32" TextWrapping="Wrap"/>
+            </StackPanel>
+
+            <StackPanel Name="JVC" Background="White" Grid.Column="1" Grid.Row="0" Margin="5,0,5,5" Cursor="Hand" MouseEnter="JVC_MouseEnter" MouseLeave="JVC_MouseLeave" MouseLeftButtonDown="JVC_MouseLeftButtonDown">
+                <Image Source="D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\pictures\JuvenileCard-img.jpg"  Height="186"/>
+                <TextBlock   Text="Juvenile Card" 
+                             Style="{StaticResource NameBlockStyle}" ></TextBlock>
+                <TextBlock Foreground="Black" Background="Transparent" FontFamily="Arial" Text="Juvenile card is an identity card issued to children under the age of 18 years." HorizontalAlignment="Left" Margin="20,5,0,0" Width="236"  Height="30" TextWrapping="Wrap" ForceCursor="True"/>
+            </StackPanel>
+
+            <StackPanel Name="POC" Background="White" Grid.Column="2" Grid.Row="0" Margin="5,0,5,5" Cursor="Hand" MouseEnter="POC_MouseEnter" MouseLeave="POC_MouseLeave" MouseLeftButtonDown="POC_MouseLeftButtonDown">
+                <Image Source="D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\pictures\POC-img.jpg"  Height="186"/>
+                <TextBlock   Text="Pakistan Origin Card"
+                             Style="{StaticResource NameBlockStyle}"></TextBlock>
+                <TextBlock Foreground="Black" Background="Transparent" FontFamily="Arial" Text="Pakistan Origin Card (POC) program endeavors to provide eligible foreigners." HorizontalAlignment="Left" Margin="20,5,0,0" Width="236"  Height="37" TextWrapping="Wrap"/>
+            </StackPanel>
+
+            <StackPanel Name="FRC" Background="White" Grid.Column="0" Grid.Row="1" Margin="5,5,5,0" Cursor="Hand" MouseEnter="FRC_MouseEnter" MouseLeave="FRC_MouseLeave" MouseLeftButtonDown="FRC_MouseLeftButtonDown">
+                <Image Source="D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\pictures\FRC-img.jpg"  Height="186"/>
+                <TextBlock   Text="Family Registration Certificate" 
+                             Style="{StaticResource NameBlockStyle}"
+                             Width="210" Height="34"></TextBlock>
+                <TextBlock Foreground="Black" Background="Transparent" FontSize="12" FontFamily="Arial" Text="Family Registration Certificate (FRC) is a means of being identified with NADRA’s record" HorizontalAlignment="Left" Margin="20,10,0,0" Width="236"  Height="43" TextWrapping="Wrap"/>
+            </StackPanel>
+
+            <StackPanel Name="CRC" Background="White" Grid.Column="1" Grid.Row="1" Margin="5,5,5,0" Cursor="Hand" MouseEnter="CRC_MouseEnter" MouseLeave="CRC_MouseLeave" MouseLeftButtonDown="CRC_MouseLeftButtonDown">
+                <Image Source="D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\pictures\CRC-img.jpg"  Height="186"/>
+                <TextBlock   Text="Child Registration Certificate"  
+                             Style="{StaticResource NameBlockStyle}"></TextBlock>
+                <TextBlock Foreground="Black" Background="Transparent" FontSize="12" FontFamily="Arial" Text="Child Registration Certificate is a means of registering a new born with your NADRA record" HorizontalAlignment="Left" Margin="20,10,0,0" Width="236"  Height="46" TextWrapping="Wrap"/>
+            </StackPanel>
+
+            <StackPanel Name="NICOP" Background="White" Grid.Column="2" Grid.Row="1" Margin="5,5,5,0" Cursor="Hand" MouseEnter="NICOP_MouseEnter" MouseLeave="NICOP_MouseLeave" MouseLeftButtonDown="NICOP_MouseLeftButtonDown">
+                <Image Source="D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\pictures\NICOP-img.jpg"  Height="186"/>
+                <TextBlock   Text="National Identity Card for Overseas Pakistanis" 
+                             Style="{StaticResource NameBlockStyle}"
+                             Width="198" Height="42" ></TextBlock>
+                <TextBlock Foreground="Black" Background="Transparent" FontFamily="Arial" FontSize="12" Text="National Identity Card for Overseas Pakistanis is issued to the overseas of Pakistan." Width="236"  Height="40" TextWrapping="Wrap"/>
+            </StackPanel>
+
+        </Grid>
+
+    </Grid>
+</Window>

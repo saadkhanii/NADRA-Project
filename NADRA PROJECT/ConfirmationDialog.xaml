@@ -1,0 +1,27 @@
+﻿<Window x:Class="NADRA_PROJECT.ConfirmationDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NADRA_PROJECT"
+        mc:Ignorable="d"
+        Title="Confirmation!" 
+        Height="180" Width="350" WindowStartupLocation="CenterScreen" Icon="/pakistan-govt-logo.png" Background="#FF152039" ShowInTaskbar="False" ResizeMode="NoResize">
+    <Grid>
+        <TextBlock x:Name="MessageTextBlock"
+                   Foreground="White" FontSize="16" FontFamily="Arial"
+                   HorizontalAlignment="Center" VerticalAlignment="Top" 
+                   TextWrapping="Wrap" Margin="0,34,0,0" TextAlignment="Center"/>
+        <Button x:Name="ConfirmButton" Content="Confirm" 
+                Height="25" Width="80"
+                FontFamily="Airal" FontSize="14"
+                VerticalAlignment="Bottom" HorizontalAlignment="Left"
+                Foreground="White" Background="#009846" Margin="70,0,0,32" Click="ConfirmButton_Click"/>
+        <Button x:Name="CancelButton" Content="Cancel" 
+                Height="25" Width="80"
+                FontFamily="Airal" FontSize="14"
+                VerticalAlignment="Bottom" HorizontalAlignment="Right"
+                Foreground="White" Background="#009846" Margin="0,0,70,32" Click="CancelButton_Click"/>
+
+    </Grid>
+</Window>

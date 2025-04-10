@@ -1,0 +1,237 @@
+﻿<Window x:Class="NADRA_PROJECT.Media"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:NADRA_PROJECT"
+      mc:Ignorable="d" 
+      Title="Media" Height="1080" Width="1920" Icon="/pakistan-govt-logo.png" WindowState="Maximized" WindowStartupLocation="CenterScreen">
+    <Window.Background>
+        <ImageBrush ImageSource="D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\pictures\nicbck.png" Stretch="Fill"></ImageBrush>
+    </Window.Background>
+    <Window.Resources>
+        <Style x:Key="PanelStyle" TargetType="StackPanel">
+            <Setter Property="Background" Value="WhiteSmoke"/>
+            <Setter Property="Orientation" Value="Horizontal"/>
+            <Setter Property="Width" Value="1050"/>
+            <Setter Property="Height" Value="200"/>
+            <Setter Property="Margin" Value="0,0,0,5"/>
+            <Setter Property="VerticalAlignment" Value="top"/>
+        </Style>
+        <Style x:Key="SubPanelStyle" TargetType="StackPanel">
+            <Setter Property="Orientation" Value="Horizontal"/>
+            <Setter Property="Margin" Value="15,10,0,0"/>
+            <Setter Property="Width" Value="730"/>
+            <Setter Property="VerticalAlignment" Value="top"/>
+        </Style>
+        <Style x:Key="ImageStyle" TargetType="Image">
+            <Setter Property="Stretch" Value="Fill"/>
+            <Setter Property="Width" Value="300"/>
+        </Style>
+        <Style x:Key="TextBlock1Style" TargetType="TextBlock">
+            <Setter Property="Foreground" Value="#009846"/>
+            <Setter Property="FontFamily" Value="Arial"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="TextWrapping" Value="Wrap"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+        </Style>
+        <Style x:Key="TextBlock2Style" TargetType="TextBlock">
+            <Setter Property="Foreground" Value="Black"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="FontFamily" Value="Arial"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Width" Value="600"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="TextWrapping" Value="Wrap"/>
+        </Style>
+        <Style x:Key="TextBlock3Style" TargetType="TextBlock">
+            <Setter Property="Foreground" Value="Black"/>
+            <Setter Property="FontFamily" Value="Arial"/>
+            <Setter Property="FontStyle" Value="Italic"/>
+            <Setter Property="FontSize" Value="12"/>
+            <Setter Property="Width" Value="100"/>
+            <Setter Property="HorizontalAlignment" Value="Right"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="TextWrapping" Value="Wrap"/>
+        </Style>
+        <Style x:Key="TextBlock4Style" TargetType="TextBlock">
+            <Setter Property="Foreground" Value="Black"/>
+            <Setter Property="FontFamily" Value="Arial"/>
+            <Setter Property="FontSize" Value="12"/>
+            <Setter Property="Width" Value="710"/>
+            <Setter Property="VerticalAlignment" Value="Top"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="TextWrapping" Value="Wrap"/>
+        </Style>
+        <Style x:Key="SubGridStyle" TargetType="Grid">
+            <Setter Property="Height" Value="190"/>
+            <Setter Property="Width" Value="730"/>
+        </Style>
+        <Style x:Key="SubScrollBarStyle" TargetType="ScrollViewer">
+            <Setter Property="VerticalScrollBarVisibility" Value="Auto"/>
+            <Setter Property="Grid.Row" Value="2"/>
+        </Style>
+    </Window.Resources>
+
+    <Grid VerticalAlignment="Stretch" HorizontalAlignment="Center">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="150"/>
+            <RowDefinition Height="650"/>
+        </Grid.RowDefinitions>
+        <Separator Grid.Row="0"
+                Height="4" Background="White" 
+                HorizontalAlignment="Center" Width="300" 
+                VerticalAlignment="Top" Margin="0,90,0,0"/>
+        <Label Grid.Row="0"
+               Content="Media Release" Background="#152039" Foreground="#009846" FontFamily="Arial Black" FontSize="28" 
+               VerticalAlignment="Top" HorizontalAlignment="Center" HorizontalContentAlignment="Center" 
+               Width="240" Margin="0,73,0,0"/>
+        <ScrollViewer VerticalScrollBarVisibility="Auto" Grid.Row="1">
+            <StackPanel>
+               
+                <StackPanel Style="{StaticResource PanelStyle}">
+                    <Image Source="D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\pictures\News1.jpg" Style="{StaticResource ImageStyle}"/>
+                    <StackPanel Style="{StaticResource SubPanelStyle}">
+                        <Grid Style="{StaticResource SubGridStyle}">
+                            <Grid.RowDefinitions>
+                                <RowDefinition MinHeight="15" MaxHeight="20"/>
+                                <RowDefinition MinHeight="20" MaxHeight="35"/>
+                                <RowDefinition />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Grid.Row="0" Text="PR-Jan-308-2025" Style="{StaticResource TextBlock1Style}"/>
+                            <TextBlock Grid.Row="1" Grid.Column="0" Text="January 23, 2025" Style="{StaticResource TextBlock3Style}" />
+                            <TextBlock Grid.Row="1" Grid.Column="1" Text="NADRA Hosts World Bank High-Ranking Team, Briefs on Progress Under DEEP" Style="{StaticResource TextBlock2Style}"/>
+                            <ScrollViewer Style="{StaticResource SubScrollBarStyle}">
+                                <TextBlock Style="{StaticResource TextBlock4Style}">National Database and Registration Authority (NADRA) hosted a high-ranking delegation from 
+                            the World Bank today, led by Mr. Martin Raiser, Vice President for the South Asia Region, and Mr. Najy Benhassine, Country Director for Pakistan. 
+                            The meeting centered around the discussion on the Digital Economy Enhancement Project (DEEP), a key initiative designed to strengthen Pakistan’s 
+                            digital economy and digital ID systems. During the briefing, NADRA officials presented the progress achieved so far under the DEEP initiative, which 
+                            aims to promote financial inclusion and improve citizens’ access to government services through digital ID and services. World Bank team appreciated 
+                            NADRA’s progress in implementing DEEP, while emphasizing the project’s critical role in supporting Pakistan’s digital transformation and economic development.
+                                </TextBlock>
+                            </ScrollViewer>
+                        </Grid>
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel Style="{StaticResource PanelStyle}">
+                    <Image Source="D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\pictures\News2.jpg" Style="{StaticResource ImageStyle}"/>
+                    <StackPanel Style="{StaticResource SubPanelStyle}">
+                        <Grid Style="{StaticResource SubGridStyle}">
+                            <Grid.RowDefinitions>
+                                <RowDefinition MinHeight="15" MaxHeight="20"/>
+                                <RowDefinition MinHeight="20" MaxHeight="35"/>
+                                <RowDefinition />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Grid.Row="0" Text="PR-Jan-307-2025" Style="{StaticResource TextBlock1Style}"/>
+                            <TextBlock Grid.Row="1" Grid.Column="0" Text="January 19, 2025" Style="{StaticResource TextBlock3Style}" />
+                            <TextBlock Grid.Row="1" Grid.Column="1" Style="{StaticResource TextBlock2Style}">NADRA’s Clarification Regarding the entry of "Resident of AJK State" on CNIC</TextBlock>
+                            <ScrollViewer Style="{StaticResource SubScrollBarStyle}">
+                                <TextBlock  Style="{StaticResource TextBlock4Style}">As per the regulations and policies in force, NADRA imprints the phrase “Resident of AJK State” in black on Smart Computerized National Identity Cards (CNICs) and in red on regular CNICs. To include this designation on a CNIC, applicants are required to submit a valid State Subject Certificate (Class 1, 2, or 3) issued by the Government of Azad Jammu and Kashmir (AJK). Without this certificate, the residency status cannot be imprinted.
+                            Recently, rumors of changes in this policy have surfaced on social media. These rumors are baseless and are being spread with ulterior motives. Between December 2024 and January 2025 alone, NADRA has issued over 50,000 CNICs with the “Resident of AJK State” imprint.
+                            In a few specific cases, the absence of this imprint may be attributed to either:<LineBreak/>
+                            The applicant’s failure to submit the required State Subject Certificate at the time of application, or
+                            Errors by the data entry operator during the CNIC processing.<LineBreak/>
+                            For applicants who submitted the required certificate but whose CNICs were affected by errors made by the data entry operator, NADRA has proactively contacted them and arranged for the free reissuance of their CNICs with the correct imprint.
+                            Applicants who did not initially submit the State Subject Certificate are requested to reapply, pay the relevant fees, and provide the necessary documentation to obtain a corrected CNIC.
+                            NADRA remains fully committed to fulfilling its legal responsibilities and ensures that identity documents are issued in compliance with prescribed regulations and policies. We are dedicated to serving citizens with efficiency, transparency, and the highest standards of professionalism.
+                                </TextBlock>
+                            </ScrollViewer>
+                        </Grid>
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel Style="{StaticResource PanelStyle}">
+                    <Image Source="D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\pictures\News3.jpg" Style="{StaticResource ImageStyle}"/>
+                    <StackPanel Style="{StaticResource SubPanelStyle}">
+                        <Grid Style="{StaticResource SubGridStyle}">
+                            <Grid.RowDefinitions>
+                                <RowDefinition MinHeight="15" MaxHeight="20"/>
+                                <RowDefinition MinHeight="20" MaxHeight="35"/>
+                                <RowDefinition />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Grid.Row="0" Text="PR-Jan-306-2025" Style="{StaticResource TextBlock1Style}"/>
+                            <TextBlock Grid.Row="1" Grid.Column="0" Text="January 17, 2025" Style="{StaticResource TextBlock3Style}" />
+                            <TextBlock Grid.Row="1" Grid.Column="1" Style="{StaticResource TextBlock2Style}">Christian Community Delegation Led by Former Federal Minister Kamran Michael Visits NADRA Headquarters.</TextBlock>
+                            <ScrollViewer Style="{StaticResource SubScrollBarStyle}">
+                                <TextBlock  Style="{StaticResource TextBlock4Style}">A delegation of Christian community, led by former federal minister, Mr. Kamran Michael, visited NADRA Headquarters today. 
+                                    The visit was aimed at discussing ways to improve the registration process for the Christian community and addressing the challenges faced in obtaining identity documents.
+                                    During the meeting with NADRA Chairman, Lieutenant General Muhammad Munir Afsar, Mr. Kamran Michael emphasized the need for increasing the frequency of NADRA’s Mobile Registration 
+                                    Van (MRV) visits to areas with a high concentration of Christian residents. Chairman NADRA briefed the delegation about special registration campaigns for minority communities, 
+                                    including MRV operations. He assured that NADRA remains committed to supporting the registration of minority individuals and would increase the frequency of MRV visits to areas 
+                                    where they are most needed. The delegation expressed their appreciation for MRV activities, acknowledging that these initiatives have significantly improved access to NADRA services for the Christian community.
+                                </TextBlock>
+                            </ScrollViewer>
+                        </Grid>
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel Style="{StaticResource PanelStyle}">
+                    <Image Source="D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\pictures\News4.jpg" Style="{StaticResource ImageStyle}"/>
+                    <StackPanel Style="{StaticResource SubPanelStyle}">
+                        <Grid Style="{StaticResource SubGridStyle}">
+                            <Grid.RowDefinitions>
+                                <RowDefinition MinHeight="15" MaxHeight="20"/>
+                                <RowDefinition MinHeight="20" MaxHeight="35"/>
+                                <RowDefinition />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Grid.Row="0" Text="PR-Jan-305-2025" Style="{StaticResource TextBlock1Style}"/>
+                            <TextBlock Grid.Row="1" Grid.Column="0" Text="January 17, 2025" Style="{StaticResource TextBlock3Style}" />
+                            <TextBlock Grid.Row="1" Grid.Column="1" Style="{StaticResource TextBlock2Style}">Christian Community Delegation Led by Former Federal Minister Kamran Michael Visits NADRA Headquarters.</TextBlock>
+                            <ScrollViewer Style="{StaticResource SubScrollBarStyle}">
+                                <TextBlock  Style="{StaticResource TextBlock4Style}">National Database and Registration Authority (NADRA) and Food Department of the Gilgit-Baltistan (GB) Government have joined forces to enhance 
+                                    efficiency and transparency of the Wheat Subsidy Program in GB. Under the agreement signed today, NADRA will provide CNIC verification services to ensure the accurate identification and verification 
+                                    of beneficiaries eligible for the wheat subsidy.<LineBreak/>The contract signing ceremony, held at NADRA Headquarters in Islamabad, was attended by senior officials from both organizations. 
+                                    The partnership aims to streamline the implementation of the subsidy program, improving its effectiveness and ensuring that assistance reaches the intended beneficiaries. Ameenullah Ghaznavi, 
+                                    Director Food Department, GB expressed his appreciation for NADRA’s support in this vital initiative. NADRA’s Chief Project Officer, Rehman Qamar commended the GB team for their dedication and 
+                                    assured them of continued cooperation in upcoming projects designed to improve public welfare and governance in the region.
+                                </TextBlock>
+                            </ScrollViewer>
+                        </Grid>
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel Style="{StaticResource PanelStyle}">
+                    <Image Source="D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\pictures\News5.jpg" Style="{StaticResource ImageStyle}"/>
+                    <StackPanel Style="{StaticResource SubPanelStyle}">
+                        <Grid Style="{StaticResource SubGridStyle}">
+                            <Grid.RowDefinitions>
+                                <RowDefinition MinHeight="15" MaxHeight="20"/>
+                                <RowDefinition MinHeight="20" MaxHeight="35"/>
+                                <RowDefinition />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Grid.Row="0" Text="PR-Jan-304-2025" Style="{StaticResource TextBlock1Style}"/>
+                            <TextBlock Grid.Row="1" Grid.Column="0" Text="January 17, 2025" Style="{StaticResource TextBlock3Style}" />
+                            <TextBlock Grid.Row="1" Grid.Column="1" Style="{StaticResource TextBlock2Style}">Christian Community Delegation Led by Former Federal Minister Kamran Michael Visits NADRA Headquarters.</TextBlock>
+                            <ScrollViewer Style="{StaticResource SubScrollBarStyle}">
+                                <TextBlock  Style="{StaticResource TextBlock4Style}">Public Procurement Regulatory Authority (PPRA) and NADRA Technologies Limited (NTL) signed a significant agreement to enhance transparency and 
+                                    efficiency in public procurement processes. Under this agreement, NTL will provide biometric verification services through over 21 ,000 NADRA e-SahuIat for suppliers and bidders who intend to register 
+                                    in the e-PAK Acquisition and Disposal System (EPADS). Sheikh Afzaal Rana, Project Director of PPRA stated, “By integration of biometric verification into the EPADS system, we are taking a proactive approach 
+                                    to combat fraud and ensure the highest standards of integrity in Public Procurement” “By providing secure and reliable biometric verification services, we are confident that this collaboration will contribute 
+                                    significantly towards improving the efficiency and transparency of Public Procurement in Pakistan”, said M. Umar Khan Azad, CEO of NTL. The implementation of this agreement is expected to have a positive impact 
+                                    on the entire public procurement ecosystem, during the first phase around 35,000 bidders/suppliers will be verified. This number will be increased to 300,000 in the near future. Mr. Hafiz Javed Ahmed (Chief Technology Officer),
+                                    Mr. Syed Abid Ali Rizvi, (Principal Software Engineer), Ms. Warda Tanveer, (Principal Business Analyst) from PPRA, Mr. Irfan Anwar (Head of e-Sahulat), and Mr. Malik Saleem Anwar (Deputy Director Ops) from NTL were also present.
+                                </TextBlock>
+                            </ScrollViewer>
+                        </Grid>
+                    </StackPanel>
+                </StackPanel>
+            </StackPanel>
+        </ScrollViewer>
+
+    </Grid>
+</Window>

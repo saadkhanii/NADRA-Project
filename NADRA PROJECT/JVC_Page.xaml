@@ -1,0 +1,118 @@
+﻿<Window x:Class="NADRA_PROJECT.JVC_Page"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NADRA_PROJECT"
+        mc:Ignorable="d"
+        Title="Juvenile Card" Height="1080" Width="1920" WindowState="Maximized" WindowStartupLocation="CenterScreen" Icon="/pakistan-govt-logo.png">
+    <Window.Background>
+        <ImageBrush ImageSource="D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\pictures\nicbck.png" Stretch="Fill"></ImageBrush>
+    </Window.Background>
+
+    <Grid HorizontalAlignment="Center" Width="1150">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="180"></RowDefinition>
+            <RowDefinition Height="150"></RowDefinition>
+            <RowDefinition Height="80"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition ></ColumnDefinition>
+            <ColumnDefinition ></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Separator Grid.Row="0"
+            Height="4" Width="350"
+            Background="White"
+            HorizontalAlignment="Left"  VerticalAlignment="Bottom" 
+            Grid.ColumnSpan="2" Margin="400,0,0,17"/>
+        <Label Grid.Row="0"
+            Content="Juvenile Card" Width="232"  
+            Background="#152039" Foreground="#009846" 
+            FontFamily="Arial Black" FontSize="28"
+            VerticalAlignment="Bottom" HorizontalAlignment="Center"
+            HorizontalContentAlignment="Center" Grid.ColumnSpan="2"/>
+        <TextBlock Grid.Row="1"
+            Foreground="White" FontFamily="Arial"
+            Width="1148"  FontSize="18" 
+            TextWrapping="Wrap"
+            HorizontalAlignment="Left" VerticalAlignment="Top" 
+            TextAlignment="Center" Grid.ColumnSpan="2" Margin="0,10,0,0">
+            Juvenile card is an identity card issued to children under the age of 18 years. The chip-based card is distinguished from Child Registration Certificate (CRC)
+            as it is an ‘entitled document’ with multiple facilities. Child’s parents or blood relative holding a valid National Identity Card (NIC) is required to be physically present for providing the biometrics. 
+            Please visit any NADRA Registration Center (NRC) to apply for Juvenile card as the online facility is not available.
+        </TextBlock>
+        <Button Grid.Row="2"
+            x:Name="ApplyNowButton" Content="APPLY NOW"
+            HorizontalAlignment="Center" VerticalAlignment="Center" 
+            Height="44" Width="266" 
+            Foreground="White" Background="#FF009846"
+            FontFamily="Arial" FontSize="16" FontWeight="Bold" 
+            BorderThickness="0,0,0,0" Grid.ColumnSpan="2"
+            VerticalContentAlignment="Center"
+            Click="ApplyNowButton_Click"/>
+        <Label Grid.Row="3" Grid.Column="0"
+            Content="→ How can I apply for juvenile card?"
+            Background="#152039" Foreground="#009846" 
+            FontFamily="Arial" FontSize="18"
+            VerticalAlignment="Top" HorizontalAlignment="Left"
+            HorizontalContentAlignment="Left"/>
+        <Label Grid.Row="3" Grid.Column="1"
+            Content="→ How long will it take from application completion to delivery?"
+            Background="#152039" Foreground="#009846" 
+            FontFamily="Arial" FontSize="18" 
+            VerticalAlignment="Top" HorizontalAlignment="Left"
+            HorizontalContentAlignment="Left" Margin="25,0,0,0"/>
+        <TextBlock Grid.Row="3"
+        TextWrapping="Wrap" 
+        FontFamily="Arial" 
+        FontSize="14"
+        VerticalAlignment="Top"
+        HorizontalAlignment="Center"
+        Foreground="White" Width="588" Margin="0,36,0,0">
+    You can apply for your Juvenile Card (JV) by visiting any NADRA Registration Center (NRC).
+    <LineBreak/>
+    <LineBreak/>
+    Following are the steps which you will be following at the NRC:
+    <LineBreak/>
+    • You will be issued a token
+    <LineBreak/>
+    • Your photograph will be captured
+    <LineBreak/>
+    • Your fingerprints and signature will be taken
+    <LineBreak/>
+    • Your required data entry will be done and form will be printed to be reviewed by yourself
+    <LineBreak/>
+    • You will be handed over a printed version of your application form.
+    <LineBreak/>
+    <LineBreak/>
+    Once the form is printed and given to you, please submit the form to the concerned NRC
+    <LineBreak/>
+    after you have got it attested either by a blood relative (father/mother/brother/sister/daughter/son) or any gazetted officer.
+        </TextBlock>
+
+        <TextBlock Grid.Row="3" Grid.Column="1"
+        TextWrapping="Wrap" 
+        FontFamily="Arial" 
+        FontSize="14"
+        VerticalAlignment="Top"
+        HorizontalAlignment="Left"
+        Foreground="White" Width="511" Margin="30,36,0,0">
+    There are three means in which a card can be delivered.
+    <LineBreak/>
+    <LineBreak/>
+    • Normal – 31 days
+    <LineBreak/>
+    • Urgent – 23 days
+    <LineBreak/>
+    • Fast Track – 9 Days (Queue priority at NRCs for immediate processing)
+    <LineBreak/>
+    <LineBreak/>
+    Please note that the processing time of your application starts after
+    <LineBreak/>
+    submission of your attested form.
+        </TextBlock>
+
+    </Grid>
+</Window>

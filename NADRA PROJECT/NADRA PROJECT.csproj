@@ -1,0 +1,51 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>NADRA_PROJECT</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="pakistan-govt-logo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.Tools.Msbuild" Version="16.0.62004.28040" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="pakistan-govt-logo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="CRC_Form.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Admin_Dashboard.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="NICOP_Form.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="JVC_Form.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="POC_Form.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SignUpPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="NICOP_Form.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+
+</Project>

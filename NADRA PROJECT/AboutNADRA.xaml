@@ -1,0 +1,37 @@
+﻿<Window x:Class="NADRA_PROJECT.AboutNADRA"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NADRA_PROJECT"
+        mc:Ignorable="d"
+        Title="AboutNADRA" Height="1080" Width="1920" WindowState="Maximized" WindowStartupLocation="CenterScreen" Icon="/pakistan-govt-logo.png">
+    <Window.Background>
+        <ImageBrush ImageSource="D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\pictures\nicbck.png" Stretch="Fill"></ImageBrush>
+    </Window.Background>
+
+    <Grid HorizontalAlignment="Center" Width="1050">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="200"></RowDefinition>
+            <RowDefinition Height="200"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Separator Grid.Row="0" Height="4" Background="White" HorizontalAlignment="Center" Width="800" VerticalAlignment="Top" Margin="0,145,0,0"></Separator>
+        <Label Grid.Row="0" Content="National Database &amp; Registration Authority" Background="#152039" Width="675" Foreground="#009846" FontFamily="Arial Black" FontSize="28" 
+               VerticalAlignment="Top" 
+               HorizontalContentAlignment="Center" Margin="188,128,188,0"></Label>
+        <TextBlock Grid.Row="1" FontSize="16" FontFamily="Arial" Foreground="White" Background="Transparent" TextWrapping="Wrap" TextAlignment="Center" 
+                   VerticalAlignment="Center" 
+                   HorizontalAlignment="Center">
+            National Database and Registration Authority (NADRA) was established as National Database Organization (NDO), an attached department under the Ministry of Interior, Government of Pakistan in 1998. On 10 March, 2000, NDO &amp; Directorate General of 
+            Registration (DGR) merged to form NADRA; an independent corporate body with requisite autonomy to operate independently and facilitate good governance. National Database &amp; Registration Authority (NADRA) has gained international recognition for 
+            its success in providing solutions for identification, e-governance and secure documents that deliver multi-pronged goals of mitigating identity theft; safe-guarding the interests of our clients and facilitating the public.
+            <LineBreak/>
+            <LineBreak/> 
+            NADRA set out on the journey of Civil Registration of all Pakistanis in March 2000 and in a short span of time NADRA’s team indigenously created a state of the art centralized Data Warehouse, Network Infrastructure and Interactive Data Acquisition Systems to issue secure National 
+            Identity Cards (NIC). With the introduction of this new fool-proof, comprehensive and highly sophisticated computerized system; NADRA has been successful in mitigating risk of identity theft.
+        </TextBlock>
+        <Image Grid.Row="2" Source="D:\VisualProjects\NADRA PROJECT (VP)\NADRA PROJECT\pictures\achievements.png" VerticalAlignment="Top" HorizontalAlignment="Stretch" ></Image>
+    </Grid>
+</Window>

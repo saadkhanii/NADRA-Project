@@ -1,0 +1,18 @@
+D:\OneDrive\Desktop\NADRA v1.1.1\NADRA PROJECT.exe
+D:\OneDrive\Desktop\NADRA v1.1.1\NADRA PROJECT.dll
+D:\OneDrive\Desktop\NADRA v1.1.1\NADRA PROJECT.deps.json
+D:\OneDrive\Desktop\NADRA v1.1.1\NADRA PROJECT.runtimeconfig.json
+D:\OneDrive\Desktop\NADRA v1.1.1\NADRA PROJECT.pdb
+D:\OneDrive\Desktop\NADRA v1.1.1\BouncyCastle.Cryptography.dll
+D:\OneDrive\Desktop\NADRA v1.1.1\Google.Protobuf.dll
+D:\OneDrive\Desktop\NADRA v1.1.1\K4os.Compression.LZ4.dll
+D:\OneDrive\Desktop\NADRA v1.1.1\K4os.Compression.LZ4.Streams.dll
+D:\OneDrive\Desktop\NADRA v1.1.1\K4os.Hash.xxHash.dll
+D:\OneDrive\Desktop\NADRA v1.1.1\MySql.Data.dll
+D:\OneDrive\Desktop\NADRA v1.1.1\System.IO.Pipelines.dll
+D:\OneDrive\Desktop\NADRA v1.1.1\ZstdSharp.dll
+D:\OneDrive\Desktop\NADRA v1.1.1\runtimes\win-x64\native\comerr64.dll
+D:\OneDrive\Desktop\NADRA v1.1.1\runtimes\win-x64\native\gssapi64.dll
+D:\OneDrive\Desktop\NADRA v1.1.1\runtimes\win-x64\native\k5sprt64.dll
+D:\OneDrive\Desktop\NADRA v1.1.1\runtimes\win-x64\native\krb5_64.dll
+D:\OneDrive\Desktop\NADRA v1.1.1\runtimes\win-x64\native\krbcc64.dll

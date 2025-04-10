@@ -1,0 +1,165 @@
+﻿<Window x:Class="NADRA_PROJECT.FRC_Form"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NADRA_PROJECT"
+        mc:Ignorable="d"
+        Title="Enter Data for FRC" Height="1080" Width="1920" Icon="/pakistan-govt-logo.png" WindowState="Maximized" WindowStartupLocation="CenterScreen" ShowInTaskbar="False">
+    <Window.Background>
+        <ImageBrush ImageSource="D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\pictures\nicbck.png" Stretch="Fill"></ImageBrush>
+    </Window.Background>
+
+    <Window.Resources>
+        <Style x:Key="LabelStyle" TargetType="Label">
+            <Setter Property="FontFamily" Value="ArialBlack"/>
+            <Setter Property="FontSize" Value="17"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Foreground" Value="#152039"/>
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+        </Style>
+        <Style x:Key="BoxStyle" TargetType="TextBox">
+            <Setter Property="Background" Value="WhiteSmoke"/>
+            <Setter Property="Foreground" Value="#152039"/>
+            <Setter Property="BorderBrush" Value="#152039"/>
+            <Setter Property="BorderThickness" Value="2"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="HorizontalContentAlignment" Value="Left"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Width" Value="230"/>
+            <Setter Property="Height" Value="35"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+        </Style>
+        <Style x:Key="ComboBoxStyle" TargetType="ComboBox">
+            <Setter Property="Background" Value="#152039"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="BorderBrush" Value="#152039"/>
+            <Setter Property="BorderThickness" Value="2"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="HorizontalContentAlignment" Value="Left"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Width" Value="250"/>
+            <Setter Property="Height" Value="35"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+        </Style>
+
+    </Window.Resources>
+
+    <Grid VerticalAlignment="Stretch" HorizontalAlignment="Center">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="150"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Separator Grid.Row="0" Height="4" Background="White" Width="600"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Top" Margin="0,125,0,0"/>
+        <Label Grid.Row="0" Content="Family Registration Certificate" Background="#152039" Foreground="#009846" FontFamily="Arial Black" 
+               FontSize="28" Width="490"
+               VerticalAlignment="Bottom" 
+               HorizontalContentAlignment="Center"/>
+
+        <local:CustomPanel Grid.Row="1" Height="600" Width="1050" 
+                           VerticalAlignment="Top" CornerRadius="25" Margin="0,20,0,0">
+            <Grid VerticalAlignment="Top" HorizontalAlignment="Stretch" Height="480" Width="1040" Margin="0,40,0,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="290"></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition Width="260"></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <Label Grid.Row="0" Grid.Column="0"  Content="Father Name / والد کا نام" Style="{StaticResource LabelStyle}" ></Label>
+                <TextBox Grid.Row="0" Grid.Column="1" 
+                         Name="fathername"
+                         Style="{StaticResource BoxStyle}"></TextBox>
+                <Label Grid.Row="1" Grid.Column="0"  Content="Mother Name / والدہ کا نام" Style="{StaticResource LabelStyle}"></Label>
+                <TextBox Grid.Row="1" Grid.Column="1" 
+                         Name="mothername"
+                         Style="{StaticResource BoxStyle}"></TextBox>
+                <Label Grid.Row="2" Grid.Column="0"  Style="{StaticResource LabelStyle}">
+                    <TextBlock> Applicant Name /<LineBreak/>درخواست گزار کا نام</TextBlock>
+                </Label>
+                <TextBox Grid.Row="2" Grid.Column="1" 
+                         Name="applicantname"
+                         Style="{StaticResource BoxStyle}"></TextBox>
+                <Label Grid.Row="3" Grid.Column="0"  Style="{StaticResource LabelStyle}">
+                    <TextBlock> Relationship to the Family Head /<LineBreak/>خاندان کے سربراہ سے تعلق</TextBlock>
+                </Label>
+                <TextBox Grid.Row="3" Grid.Column="1" 
+                         Name="relationship"
+                         Style="{StaticResource BoxStyle}"></TextBox>
+                <Label Grid.Row="4" Grid.Column="0" Style="{StaticResource LabelStyle}">
+                    <TextBlock> Number of FamilyMembers /<LineBreak/>خاندان کے افراد کی تعداد</TextBlock>
+                </Label>
+                <TextBox Grid.Row="4" Grid.Column="1" 
+                         Name="numberofmembers"
+                         Style="{StaticResource BoxStyle}"></TextBox>
+                <Label Grid.Row="5" Grid.Column="0" Content="Religion / مذہب" Style="{StaticResource LabelStyle}"></Label>
+                <TextBox Grid.Row="5" Grid.Column="1" 
+                         Name="religion"
+                         Style="{StaticResource BoxStyle}"></TextBox>
+
+                <Label Grid.Row="0" Grid.Column="2" Style="{StaticResource LabelStyle}">
+                    <TextBlock>Father NIC /<LineBreak/>والد کا شناختی کارڈ نمبر</TextBlock>
+                </Label>
+                <TextBox Grid.Row="0" Grid.Column="3" 
+                         Name="fathernic"
+                         Style="{StaticResource BoxStyle}"></TextBox>
+                <Label Grid.Row="1" Grid.Column="2" Style="{StaticResource LabelStyle}">
+                    <TextBlock>Mother NIC /<LineBreak/>والدہ کا شناختی کارڈ نمبر</TextBlock>
+                </Label>
+                <TextBox Grid.Row="1" Grid.Column="3" 
+                         Name="mothernic"
+                         Style="{StaticResource BoxStyle}"></TextBox>
+                <Label Grid.Row="2" Grid.Column="2" Style="{StaticResource LabelStyle}">
+                    <TextBlock>Applicant NIC /<LineBreak/>درخواست گزار کا شناختی کارڈ نمبر</TextBlock>
+                </Label>
+                <TextBox Grid.Row="2" Grid.Column="3" 
+                         Name="applicantnic"
+                         Style="{StaticResource BoxStyle}"></TextBox>
+                <Label Grid.Row="3" Grid.Column="2"  
+                       Style="{StaticResource LabelStyle}">
+                    <TextBlock>Family Registration Number /<LineBreak/>خاندانی رجسٹریشن نمبر</TextBlock>
+                </Label>
+                <TextBox Grid.Row="3" Grid.Column="3" 
+                         Name="frn"
+                         Style="{StaticResource BoxStyle}"></TextBox>
+                <Label Grid.Row="4" Grid.Column="2" Style="{StaticResource LabelStyle}">
+                    <TextBlock>Permanent Address /<LineBreak/>مستقل پتہ</TextBlock>
+                </Label>
+                <TextBox Grid.Row="4" Grid.Column="3" 
+                         Name="permanentaddress"
+                         Style="{StaticResource BoxStyle}"></TextBox>
+                <Label Grid.Row="5" Grid.Column="2"  Style="{StaticResource LabelStyle}">
+                    <TextBlock>Current Address /<LineBreak/> موجودہ پتہ</TextBlock>
+                </Label>
+                <TextBox Grid.Row="5" Grid.Column="3" 
+                         Name="currentaddress"
+                         Style="{StaticResource BoxStyle}"></TextBox>
+ 
+            </Grid>
+            <Button x:Name="SubmitButton" Content="Submit"
+                    Height="45" Width="230" 
+                    Background="#152039" Foreground="White" 
+                    FontFamily="Arial Black" FontSize="16" 
+                    Margin="160,535,160,10" 
+                    BorderBrush="White" BorderThickness="2" 
+                    Cursor="Hand" 
+                    Click="SubmitButton_Click"/>
+        </local:CustomPanel>
+    </Grid>
+</Window>

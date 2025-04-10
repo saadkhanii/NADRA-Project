@@ -1,0 +1,156 @@
+﻿<Window x:Class="NADRA_PROJECT.POC_Page"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NADRA_PROJECT"
+        mc:Ignorable="d"
+        Title="Pakistan Origin Card" Height="1080" Width="1920" WindowState="Maximized" WindowStartupLocation="CenterScreen" Icon="/pakistan-govt-logo.png" ScrollViewer.VerticalScrollBarVisibility="Auto" ScrollViewer.CanContentScroll="True">
+
+    <Window.Background>
+        <ImageBrush ImageSource="D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\pictures\nicbck.png" Stretch="Fill"></ImageBrush>
+    </Window.Background>
+
+    <Window.Resources>
+        <Style x:Key="BorderStyle" TargetType="Border">
+            <Setter Property="BorderBrush" Value="#009846"/>
+            <Setter Property="BorderThickness" Value="1"/>
+        </Style>
+
+        <Style x:Key="TextStyle" TargetType="TextBlock">
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontFamily" Value="Arial"/>
+            <Setter Property="FontSize" Value="18"/>
+        </Style>
+    </Window.Resources>
+
+    <Grid HorizontalAlignment="Center" VerticalAlignment="Stretch" Width="1200">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="150"></RowDefinition>
+            <RowDefinition Height="200"></RowDefinition>
+            <RowDefinition Height="45"></RowDefinition>
+            <RowDefinition Height="35"></RowDefinition>
+            <RowDefinition Height="215"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Separator Grid.Row="0" Height="4" Background="White" HorizontalAlignment="Center" Width="500" VerticalAlignment="Top" Margin="0,125,0,0"></Separator>
+        <Label Grid.Row="0" Content="Pakistan Origin Card" Width="350" Background="#152039" Foreground="#009846" FontFamily="Arial Black" FontSize="28" VerticalAlignment="Bottom" HorizontalContentAlignment="Center"></Label>
+        <TextBlock Grid.Row="1" VerticalAlignment="Top" HorizontalAlignment="Center" TextWrapping="Wrap" FontFamily="Arial" FontSize="16" Foreground="White" Width="1200" Height="184">
+    Pakistan Origin Card (POC) program endeavors to provide eligible foreigners with unprecedented incentives to get back
+    to their roots; while ensuring that the motherland remains tightly integrated with expatriates worldwide which includes:
+    <LineBreak/>
+    <LineBreak/>
+    • Multiple visa-free entry in to Pakistan.<LineBreak/>
+    • Indefinite stay in Pakistan with exemption from reporting to police or foreigners’ registration offices, etc.<LineBreak/>
+    • Right to purchase, sell, own, deal with and dispose of movable and immovable property anywhere in Pakistan.<LineBreak/>
+    • Right to open and operate the bank accounts in Pakistan.<LineBreak/>
+    • Swift immigration into/from Pakistan at all designated routes, port and places.<LineBreak/>
+    • Proof of Identity in place of National Identity Card.<LineBreak/>
+    • May obtain Employment.
+        </TextBlock>
+        <Button Grid.Row="2" x:Name="ApplyNowButton" Content="APPLY NOW" HorizontalAlignment="Center" VerticalAlignment="Center" Height="45" Width="268" Foreground="White" FontFamily="Arial" FontSize="16" FontWeight="Bold" Background="#FF009846" BorderThickness="0,0,0,0" VerticalContentAlignment="Center" Click="ApplyNowButton_Click" />
+        <Label Grid.Row="3" Content="Eligibility for Smart POC" Background="Transparent" Foreground="#009846" FontFamily="Arial Black" FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Top" Height="35"></Label>
+        <TextBlock Grid.Row="4" TextWrapping="Wrap" FontFamily="Arial" FontSize="16" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Top" Height="218" Width="1200">
+    Pakistan Origin Card is issued to those applicants who themselves or their parents have renounced their Pakistani citizenship
+    and have acquired the nationality of the country that has no dual nationality arrangement with Pakistan. Foreign spouse of
+    the Pakistani origin can also obtain Smart POC. In the following scenarios, the applicant is eligible for the Smart POC:
+    <LineBreak/>
+    <LineBreak/>
+    • If the applicant was a Pakistani national and has surrendered the Pakistani nationality and now holds the nationality of a
+      country other than a dual national country.<LineBreak/>
+    • If the applicant is a foreign national, holding the nationality of a country other than a dual national country, and his/her parents
+      or grandparents are or were Pakistani nationals.<LineBreak/>
+    • If the applicant is a foreign national and any of his/her relatives (brother, sister, uncle, aunt) are or were Pakistani nationals.<LineBreak/>
+    • If the applicant is a foreign national and married to a Pakistani/Ex-Pakistani citizen.<LineBreak/>
+    <LineBreak/>
+    Following is the list of countries that have a dual nationality agreement with Pakistan.
+        </TextBlock>
+        <Label x:Name="ShowLabel" Grid.Row="4" VerticalAlignment="Bottom" HorizontalAlignment="Left" Content="Show..." FontFamily="Arial" FontSize="16" Foreground="#009846" Width="75" FontWeight="Bold" Margin="659,0,0,8" Cursor="Hand" MouseLeftButtonDown="ShowLabel_MouseLeftButtonDown"/>
+
+        <Grid x:Name="countries" Grid.Row="5" HorizontalAlignment="Center" VerticalAlignment="Top" Visibility="Hidden" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="150"></ColumnDefinition>
+                <ColumnDefinition Width="150"></ColumnDefinition>
+                <ColumnDefinition Width="150"></ColumnDefinition>
+                <ColumnDefinition Width="150"></ColumnDefinition>
+                <ColumnDefinition Width="150"></ColumnDefinition>
+                <ColumnDefinition Width="150"></ColumnDefinition>
+                <ColumnDefinition Width="150"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Border Grid.Row="0" Grid.Column="0" Style="{StaticResource BorderStyle}">
+                <TextBlock Text="New Zealand" Style="{StaticResource TextStyle}"/>
+            </Border>
+            <Border Grid.Row="0" Grid.Column="1" Style="{StaticResource BorderStyle}">
+                <TextBlock Text="Sweden" Style="{StaticResource TextStyle}"/>
+            </Border>
+            <Border Grid.Row="0" Grid.Column="2" Style="{StaticResource BorderStyle}">
+                <TextBlock Text="Switzerland" Style="{StaticResource TextStyle}"/>
+            </Border>
+            <Border Grid.Row="0" Grid.Column="3" Style="{StaticResource BorderStyle}">
+                <TextBlock Text="Syria" Style="{StaticResource TextStyle}"/>
+            </Border>
+            <Border Grid.Row="0" Grid.Column="4" Style="{StaticResource BorderStyle}">
+                <TextBlock Text="United Kingdom" Style="{StaticResource TextStyle}"/>
+            </Border>
+
+            <Border Grid.Row="1" Grid.Column="0" Style="{StaticResource BorderStyle}">
+                <TextBlock Text="USA" Style="{StaticResource TextStyle}"/>
+            </Border>
+            <Border Grid.Row="1" Grid.Column="1" Style="{StaticResource BorderStyle}">
+                <TextBlock Text="Bahrain" Style="{StaticResource TextStyle}"/>
+            </Border>
+            <Border Grid.Row="1" Grid.Column="2" Style="{StaticResource BorderStyle}">
+                <TextBlock Text="Finland" Style="{StaticResource TextStyle}"/>
+            </Border>
+            <Border Grid.Row="1" Grid.Column="3" Style="{StaticResource BorderStyle}">
+                <TextBlock Text="Australia" Style="{StaticResource TextStyle}"/>
+            </Border>
+            <Border Grid.Row="1" Grid.Column="4" Style="{StaticResource BorderStyle}">
+                <TextBlock Text="Belgium" Style="{StaticResource TextStyle}"/>
+            </Border>
+
+            <Border Grid.Row="2" Grid.Column="0" Style="{StaticResource BorderStyle}">
+                <TextBlock Text="Canada" Style="{StaticResource TextStyle}"/>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="1" Style="{StaticResource BorderStyle}">
+                <TextBlock Text="Egypt" Style="{StaticResource TextStyle}"/>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="2" Style="{StaticResource BorderStyle}">
+                <TextBlock Text="France" Style="{StaticResource TextStyle}"/>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="3" Style="{StaticResource BorderStyle}">
+                <TextBlock Text="Iceland" Style="{StaticResource TextStyle}"/>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="4" Style="{StaticResource BorderStyle}">
+                <TextBlock Text="Ireland" Style="{StaticResource TextStyle}"/>
+            </Border>
+
+            <Border Grid.Row="1" Grid.Column="6" Style="{StaticResource BorderStyle}">
+                <TextBlock Text="Italy" Style="{StaticResource TextStyle}"/>
+            </Border>
+            <Border Grid.Row="0" Grid.Column="6" Style="{StaticResource BorderStyle}">
+                <TextBlock Text="Jordan" Style="{StaticResource TextStyle}"/>
+            </Border>
+            <Border Grid.Row="0" Grid.Column="5" Style="{StaticResource BorderStyle}">
+                <TextBlock Text="Netherland" Style="{StaticResource TextStyle}"/>
+            </Border>
+            <Border Grid.Row="1" Grid.Column="5" Style="{StaticResource BorderStyle}">
+                <TextBlock Text="Germany" Style="{StaticResource TextStyle}"/>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="5" Style="{StaticResource BorderStyle}">
+                <TextBlock Text="Norway" Style="{StaticResource TextStyle}"/>
+            </Border> 
+            <Border Grid.Row="2" Grid.Column="6" Style="{StaticResource BorderStyle}">
+                <TextBlock Text="Denmark" Style="{StaticResource TextStyle}"/>
+            </Border>
+        </Grid>
+    </Grid>
+</Window>

@@ -1,0 +1,132 @@
+﻿<Window x:Class="NADRA_PROJECT.Complaints"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NADRA_PROJECT"
+        mc:Ignorable="d"
+        Title="Complaints" Height="1080" Width="1920" Icon="/pakistan-govt-logo.png" WindowState="Maximized" WindowStartupLocation="CenterScreen">
+    <Window.Background>
+        <ImageBrush ImageSource="D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\pictures\nicbck.png" Stretch="Fill"></ImageBrush>
+    </Window.Background>
+
+    <Window.Resources>
+        <Style x:Key="LabelStyle" TargetType="Label">
+            <Setter Property="FontFamily" Value="ArialBlack"/>
+            <Setter Property="FontSize" Value="18"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Padding" Value="5,5,5,5"/>
+            <Setter Property="Foreground" Value="#152039"/>
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+        </Style>
+        <Style x:Key="BoxStyle" TargetType="TextBox">
+            <Setter Property="Background" Value="WhiteSmoke"/>
+            <Setter Property="Foreground" Value="#152039"/>
+            <Setter Property="BorderBrush" Value="#152039"/>
+            <Setter Property="BorderThickness" Value="2"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="TextWrapping" Value="Wrap"/>
+            <Setter Property="HorizontalContentAlignment" Value="Left"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Width" Value="240"/>
+            <Setter Property="Height" Value="35"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+        </Style>
+
+    </Window.Resources>
+
+
+    <Grid VerticalAlignment="Stretch" HorizontalAlignment="Center">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="150"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Separator Grid.Row="0"
+            Height="4" Background="White" HorizontalAlignment="Center" Width="500" VerticalAlignment="Top" Margin="0,111,0,0"/>
+        <Label Grid.Row="0"
+               Content="NADRA CUSTOMER CARE" Background="#152039" Foreground="#009846" FontFamily="Arial Black" FontSize="28" 
+               VerticalAlignment="Top" HorizontalAlignment="Center" HorizontalContentAlignment="Center" 
+               Width="400" Margin="0,94,0,0"/>
+
+        <local:CustomPanel Grid.Row="1" Height="600" Width="1050" 
+                    VerticalAlignment="Top" CornerRadius="25" Margin="0,10,0,0">
+            <Grid VerticalAlignment="Top" HorizontalAlignment="Stretch" Height="400">
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="300"></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition Width="255"></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <Label Grid.Row="0" Grid.Column="0"  Content="Country / ملک کا نام " Style="{StaticResource LabelStyle}" ></Label>
+                <TextBox Grid.Row="0" Grid.Column="1" 
+                         x:Name="country"
+                         Style="{StaticResource BoxStyle}"></TextBox>
+                <Label Grid.Row="1" Grid.Column="0"  Content="District / ضلع " Style="{StaticResource LabelStyle}"></Label>
+                <TextBox Grid.Row="1" Grid.Column="1" 
+                         x:Name="district"
+                         Style="{StaticResource BoxStyle}"></TextBox>
+                <Label Grid.Row="2" Grid.Column="0"  Content="Office ID /  آفس نمبر" Style="{StaticResource LabelStyle}"></Label>
+                <TextBox Grid.Row="2" Grid.Column="1" 
+                         x:Name="officeid"
+                         Style="{StaticResource BoxStyle}"></TextBox>
+                <Label Grid.Row="3" Grid.Column="0"  Content="NIC Number / شناختی کارڈ نمبر " Style="{StaticResource LabelStyle}"></Label>
+                <TextBox Grid.Row="3" Grid.Column="1" 
+                         x:Name="nicnumber"
+                         Style="{StaticResource BoxStyle}"></TextBox>
+                <Label Grid.Row="4" Grid.Column="0"  Content="Dailing Code / ڈائلنگ کوڈ" Style="{StaticResource LabelStyle}"></Label>
+                <TextBox Grid.Row="4" Grid.Column="1" 
+                         x:Name="dailingcode"
+                         Style="{StaticResource BoxStyle}"></TextBox>
+
+
+                <Label Grid.Row="0" Grid.Column="2"  Content="Province / صوبہ " Style="{StaticResource LabelStyle}"></Label>
+                <TextBox Grid.Row="0" Grid.Column="3" 
+                         x:Name="province"
+                         Style="{StaticResource BoxStyle}"></TextBox>
+                <Label Grid.Row="1" Grid.Column="2"  Content="Tehsil / تحصیل " Style="{StaticResource LabelStyle}"></Label>
+                <TextBox Grid.Row="1" Grid.Column="3" 
+                         x:Name="tehsil"
+                         Style="{StaticResource BoxStyle}"></TextBox>
+                <Label Grid.Row="2" Grid.Column="2"  Content="Full Name / پورا نام " Style="{StaticResource LabelStyle}"></Label>
+                <TextBox Grid.Row="2" Grid.Column="3" 
+                         Name="fullname"
+                         Style="{StaticResource BoxStyle}"></TextBox>
+                <Label Grid.Row="3" Grid.Column="2"  Content="Email Address / ای میل " Style="{StaticResource LabelStyle}"></Label>
+                <TextBox Grid.Row="3" Grid.Column="3" 
+                         x:Name="email"
+                         Style="{StaticResource BoxStyle}"></TextBox>
+                <Label Grid.Row="4" Grid.Column="2"  Content="Contact Number / رابطہ نمبر" Style="{StaticResource LabelStyle}"></Label>
+                <TextBox Grid.Row="4" Grid.Column="3" 
+                         x:Name="contact"
+                         Style="{StaticResource BoxStyle}"></TextBox>
+
+            </Grid>
+            <Label  Content="Compose / تحریر کریں" Style="{StaticResource LabelStyle}" Margin="0,417,0,0" VerticalAlignment="Top"></Label>
+            <TextBox  x:Name="complaint"
+                Style="{StaticResource BoxStyle}" Margin="302,417,0,0" 
+                      VerticalAlignment="Top" Height="68" Width="738" 
+                      VerticalContentAlignment="Top" TextWrapping="NoWrap" />
+            <Button x:Name="SubmitButton" Content="Submit" 
+                    Background="#152039" Foreground="White" 
+                    FontFamily="Arial Black" FontSize="18" 
+                    Margin="302,520,508,40" Width="240" Height="40"
+                    BorderBrush="White" BorderThickness="2" 
+                    Cursor="Hand" HorizontalContentAlignment="Center" MaxWidth="761" Click="SubmitButton_Click" />
+        </local:CustomPanel>
+
+
+    </Grid>
+</Window>

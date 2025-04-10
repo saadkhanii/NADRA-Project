@@ -1,0 +1,74 @@
+﻿<Window x:Class="NADRA_PROJECT.ContactUs"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NADRA_PROJECT"
+        mc:Ignorable="d"
+        Title="Contact Us" Height="1080" Width="1920" Icon="/pakistan-govt-logo.png" WindowState="Maximized" WindowStartupLocation="CenterScreen">
+    <Window.Background>
+        <ImageBrush ImageSource="D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\pictures\nicbck.png" Stretch="Fill"></ImageBrush>
+    </Window.Background>
+    <Window.Resources>
+        <Style x:Key="LabelStyle" TargetType="Label">
+            <Setter Property="Foreground" Value="#009846"/>
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="FontFamily" Value="Arial Black"/>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        </Style>
+        <Style x:Key="TextBlockStyle" TargetType="TextBlock">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontFamily" Value="Arial"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="Width" Value="250"/>
+            <Setter Property="TextWrapping" Value="Wrap"/>
+            <Setter Property="VerticalAlignment" Value="Bottom"/>
+        </Style>
+    </Window.Resources>
+
+    <Grid VerticalAlignment="Stretch" HorizontalAlignment="Center">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="150"/>
+            <RowDefinition Height="120"/>
+            <RowDefinition Height="150"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Separator Grid.Row="0"
+            Height="4" Background="White" HorizontalAlignment="Center" Width="280" VerticalAlignment="Top" Margin="0,125,0,0"/>
+        <Label Grid.Row="0"
+               Content="Contact Us" Background="#152039" Foreground="#009846" FontFamily="Arial Black" FontSize="28" 
+               VerticalAlignment="Top" HorizontalAlignment="Center" HorizontalContentAlignment="Center" 
+               Width="200" Margin="0,108,0,0"/>
+        <TextBlock Grid.Row="1"
+                   Foreground="White" FontFamily="Arial" FontSize="18" Width="1085" Text="National Identity Card (NIC) is issued to the citizens of Pakistan. It is a blend of state-of-the-art technology and well-defined business rules to guarantee its authenticity and validity. The unique 13 digit identification number is recognized all over the country. It is the first requirement of individualsas it is mandatory to obtain documents like license, NTN, bank account, passport, cellular connection etc. Every citizen of Pakistan, 18 years and above, is eligible for NIC."
+                   TextWrapping="Wrap" HorizontalAlignment="Left" VerticalAlignment="Bottom"/>
+
+        <Label Grid.Row="2" Content="Address"
+               Style="{StaticResource LabelStyle}" Margin="0,82,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"></Label>
+        <TextBlock Grid.Row="2" HorizontalAlignment="Left"
+                   Style="{StaticResource TextBlockStyle}" Width="313" 
+                   Text="State Bank of Pakistan Building، Shahrah-i-Jamhuriat, G-5/2, Islamabad" Height="38"/>
+
+        <Label Grid.Row="2" Content="Call us"
+               Style="{StaticResource LabelStyle}" Margin="463,82,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"></Label>
+        <TextBlock Grid.Row="2" HorizontalAlignment="Center"
+                   Style="{StaticResource TextBlockStyle}" Width="167" 
+                   Height="38" Margin="0,112,0,0" VerticalAlignment="Top">1777 (Mobile Users) <LineBreak></LineBreak>+92 51 111 786 100</TextBlock>
+        <Label Grid.Row="2" Content="Approach Us"
+               Style="{StaticResource LabelStyle}" Margin="0,82,163,0" HorizontalAlignment="Right" VerticalAlignment="Top"></Label>
+        <TextBlock Grid.Row="2"
+                   Style="{StaticResource TextBlockStyle}" Width="284" HorizontalAlignment="Right"
+                   Text="For query, suggestions and complaints click here" Margin="0,0,29,0"/>
+
+        <TextBlock Grid.Row="3"
+                   Foreground="White" Background="#009846"
+                   FontFamily="Arial" FontSize="18" Width="1095"
+           TextWrapping="Wrap" HorizontalAlignment="Left" VerticalAlignment="Top" Padding="5,5,5,5" Margin="0,39,0,0">Chat for Queries/Complaints: <LineBreak></LineBreak> In order to expedite the process of communication and prompt assistance to all of your online queries/complaints, NADRA Pak Identity has launched a quick chat option, which is way quicker than the conventional approach of launching a complaint via ticket system. Please click "Chat here", and you will be connected to one of our NADRA representative for guidance and resolution of your query.</TextBlock>
+    </Grid>
+</Window>

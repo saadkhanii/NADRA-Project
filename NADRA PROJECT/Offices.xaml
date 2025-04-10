@@ -1,0 +1,15 @@
+﻿<Window x:Class="NADRA_PROJECT.Offices"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NADRA_PROJECT"
+        mc:Ignorable="d"
+        Title="Offices" Height="1080" Width="1920" Icon="/pakistan-govt-logo.png" WindowState="Maximized" WindowStartupLocation="CenterScreen">
+    <Window.Background>
+        <ImageBrush ImageSource="D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\pictures\nicbck.png" Stretch="Fill"></ImageBrush>
+    </Window.Background>
+    <Grid>
+        <Label Content="COMING SOON....!" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Arial Black" FontSize="35" Foreground="#009846"/>
+    </Grid>
+</Window>

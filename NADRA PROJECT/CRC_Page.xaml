@@ -1,0 +1,83 @@
+﻿<Window x:Class="NADRA_PROJECT.CRC_Page"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NADRA_PROJECT"
+        mc:Ignorable="d"
+        Title="Child Registration Certificate" Height="1080" Width="1920" WindowState="Maximized" WindowStartupLocation="CenterScreen" Icon="/pakistan-govt-logo.png">
+    <Window.Background>
+        <ImageBrush ImageSource="D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\pictures\nicbck.png" Stretch="Fill"></ImageBrush>
+    </Window.Background>
+
+    <Grid HorizontalAlignment="Center" VerticalAlignment="Stretch">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="150"></RowDefinition>
+            <RowDefinition Height="200"></RowDefinition>
+            <RowDefinition Height="80"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Separator Grid.Row="0"
+            Height="4" Width="600"
+            Background="White" 
+            HorizontalAlignment="Center"  VerticalAlignment="Top" Margin="0,125,0,0"/>
+        <Label Grid.Row="0"
+            Content="Child Registration Certificate" 
+               Width="465" 
+               Background="#152039" Foreground="#009846" 
+               FontFamily="Arial Black" FontSize="28" 
+               VerticalAlignment="Bottom" HorizontalAlignment="Center"
+               HorizontalContentAlignment="Center"/>
+        <TextBlock Grid.Row="1"
+    Foreground="White" 
+    FontFamily="Arial" 
+    FontSize="18" 
+    Width="896" Height="170"
+    TextWrapping="Wrap" 
+    HorizontalAlignment="Center" 
+    VerticalAlignment="Center" 
+    TextAlignment="Center">
+    Child Registration Certificate (CRC) is a mean of registering a new born in NADRA record. It is the fundamental right of a child to get a
+    registration certificate from the place of origin. NADRA has been able to automate and in turn facilitate the process of acquiring
+    Child Registration Certificates. CRC is also known as B-form.
+    <LineBreak/>
+    <LineBreak/>
+    CRC can be obtained by providing documented proof of child birth from union council (inland and abroad). Parent is required to be a
+    holder of National Identity Card (NIC)/National Identity Card for Overseas Pakistanis (NICOP).
+        </TextBlock>
+
+        <Button Grid.Row="2"
+            x:Name="ApplyNowButton" Content="APPLY NOW" 
+            HorizontalAlignment="Center" VerticalAlignment="Center"
+            Height="45" Width="267"
+            Foreground="White" Background="#FF009846" 
+            FontFamily="Arial" FontSize="16" FontWeight="Bold"
+            VerticalContentAlignment="Center" 
+            Click="ApplyNowButton_Click" BorderThickness="0,0,0,0" />
+        
+        <Label Grid.Row="3"
+            Content="→ How can I apply for Child Registration Certificate?" 
+            Background="#152039" Foreground="#009846" 
+            FontFamily="Arial" FontSize="18" 
+            VerticalAlignment="Top" HorizontalAlignment="Left" 
+            HorizontalContentAlignment="Left" Margin="0,22,0,0"/>
+        <TextBlock Grid.Row="3"
+            TextWrapping="Wrap" 
+            FontFamily="Arial" 
+            FontSize="14"
+            VerticalAlignment="Top"
+            HorizontalAlignment="Center"
+            Foreground="White"
+            Width="896" Height="130" Margin="0,58,0,0">
+You can visit any NADRA Registration Center (NRC) to apply for CRC or
+You can apply for the CRC of your child upto one year age through Pak ID Mobile App
+<LineBreak/>
+<LineBreak/>
+According to Section 9 of the NADRA Ordinance 2000, a child needs to be registered within one month of birth.
+However, for the convenience of the public, Pak ID offers online registration of CRC upto one year of age.
+For children older than one year, CRC processing is available through NADRA Registration Centers 
+all across the country.
+        </TextBlock>
+    </Grid>
+</Window>

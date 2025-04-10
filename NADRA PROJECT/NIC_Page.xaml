@@ -1,0 +1,74 @@
+﻿<Window x:Class="NADRA_PROJECT.NIC_Page"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NADRA_PROJECT"
+        mc:Ignorable="d"
+        Title="National Identity Card" Height="1080" Width="1920" WindowState="Maximized" WindowStartupLocation="CenterScreen" Icon="/pakistan-govt-logo.png">
+    <Window.Background>
+        <ImageBrush ImageSource="D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\pictures\nicbck.png" Stretch="Fill"></ImageBrush>
+    </Window.Background>
+    
+    <Grid VerticalAlignment="Stretch" HorizontalAlignment="Center">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="150"></RowDefinition>
+            <RowDefinition Height="180"></RowDefinition>
+            <RowDefinition Height="80"></RowDefinition>
+            <RowDefinition Height="80"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Separator Grid.Row="0"
+            Height="4" Width="480" Background="White" 
+            HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,125,0,0"/>
+        
+        <Label Grid.Row="0"
+            Content="National Identity Card" 
+            Background="#152039" Foreground="#009846" 
+            FontFamily="Arial Black" FontSize="28" 
+            VerticalAlignment="Bottom" HorizontalAlignment="Center"/>
+        <TextBlock Grid.Row="1"
+            Foreground="White" FontFamily="Arial" 
+            FontSize="18" Width="990"
+            Text="National Identity Card (NIC) is issued to the citizens of Pakistan. It is a blend of state-of-the-art technology and well-defined business rules to guarantee its authenticity and validity. The unique 13 digit identification number is recognized all over the country. It is the first requirement of individualsas it is mandatory to obtain documents like license, NTN, bank account, passport, cellular connection etc. Every citizen of Pakistan, 18 years and above, is eligible for NIC."
+            TextWrapping="Wrap" TextAlignment="Center"
+            HorizontalAlignment="Center" VerticalAlignment="Center">
+        </TextBlock>
+        <Button Grid.Row="2"
+            x:Name="ApplyNowButton" Content="APPLY NOW" 
+            HorizontalAlignment="Center" VerticalAlignment="Center" 
+            Height="45" Width="267" Foreground="White" FontFamily="Arial" 
+            FontSize="16" FontWeight="Bold" 
+            Background="#FF009846" BorderThickness="0,0,0,0" 
+            VerticalContentAlignment="Center" Click="ApplyNowButton_Click" />
+        <Label Grid.Row="3"
+            Content="Document Requirements" 
+            Background="#152039" Foreground="#009846"
+            FontFamily="Arial Black" FontSize="20"
+            VerticalAlignment="Bottom" 
+            HorizontalContentAlignment="Center"></Label>
+        <Label Grid.Row="4"
+            Content="What are you looking for?" 
+            Width="237" Foreground="White" 
+            VerticalAlignment="Top" HorizontalAlignment="Left" 
+            FontSize="18" FontFamily="Arial" />
+        <ComboBox Grid.Row="4"
+             SelectedIndex="0"
+            VerticalAlignment="Top" HorizontalAlignment="Left"  
+            Width="702" Height="27"
+            Foreground="Black" FontSize="14" FontFamily="Arial" 
+            ScrollViewer.VerticalScrollBarVisibility="Auto" Margin="0,31,0,0">
+          
+            <ComboBoxItem Cursor="Hand" Content="Please select your query type" FontFamily="Arial" FontSize="14"/>
+            <ComboBoxItem Cursor="Hand" Content="My identity card (CNIC) is stolen/lost" FontFamily="Arial" FontSize="14"/>
+            <ComboBoxItem Cursor="Hand" Content="I want to renew my identity card" FontFamily="Arial" FontSize="14"/>
+            <ComboBoxItem Cursor="Hand" Content="I want to modify data on my CNIC" FontFamily="Arial" FontSize="14"/>
+            <ComboBoxItem Cursor="Hand" Content="I want to modify data on my CNIC (Non-printable Field)" FontFamily="Arial" FontSize="14"/>
+            <ComboBoxItem Cursor="Hand" Content="I want to cancel my identity card (CNIC)" FontFamily="Arial" FontSize="14"/>
+            <ComboBoxItem Cursor="Hand" Content="I want to cancel deceased Family member Identity Card (SCNIC/CNIC)" FontFamily="Arial" FontSize="14"/>
+            <ComboBoxItem Cursor="Hand" Content="I want to expedite my applied Application" FontFamily="Arial" FontSize="14"/>
+               
+        </ComboBox>
+    </Grid>
+</Window>

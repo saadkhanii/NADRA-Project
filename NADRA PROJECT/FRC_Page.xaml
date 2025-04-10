@@ -1,0 +1,193 @@
+﻿<Window x:Class="NADRA_PROJECT.FRC_Page"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NADRA_PROJECT"
+        mc:Ignorable="d"
+        Title="Family Registration Certificate" Height="1080" Width="1920" WindowState="Maximized" WindowStartupLocation="CenterScreen" Icon="/pakistan-govt-logo.png">
+    <Window.Background>
+        <ImageBrush ImageSource="D:\VisualProjects\NADRA PROJECT\NADRA PROJECT\pictures\nicbck.png" Stretch="Fill"></ImageBrush>
+    </Window.Background>
+
+    <Grid HorizontalAlignment="Center" VerticalAlignment="Stretch" Width="1100">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="150"></RowDefinition>
+            <RowDefinition Height="200"></RowDefinition>
+            <RowDefinition Height="70"></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition Height="80"></RowDefinition>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Separator Grid.Row="0"
+            Height="4" Width="600"  Background="White"
+            HorizontalAlignment="Left" VerticalAlignment="Top" Margin="247,125,0,0"/>
+        <Label Grid.Row="0"
+            Content="Family Registration Certificate" Width="485" 
+            Background="#152039" Foreground="#009846" FontFamily="Arial Black" 
+            FontSize="28" 
+            VerticalAlignment="Bottom" HorizontalAlignment="Center"/>
+        <TextBlock Grid.Row="1"
+            TextWrapping="Wrap" 
+            FontFamily="Arial" 
+            FontSize="14" 
+            Foreground="White" 
+            VerticalAlignment="Center" 
+            HorizontalAlignment="Left" 
+            Width="1097">
+             
+    Family Registration Certificate (FRC) is a means of being identified with your NADRA’s record. 
+    This provides the family composition. <LineBreak/>
+    Please note that the Family Registration Certificate (FRC) helps in Embassy use mostly 
+    but cannot be used for any Legal requirement. <LineBreak/><LineBreak/>
+    
+    You can apply for FRC in the following three categories:<LineBreak/>
+    • By Birth – The produced certificate will list your family including the details of your parents and siblings.<LineBreak/>
+    • By Marriage – The produced certificate will list your family including the details of your spouse and children.<LineBreak/>
+    • By Adoption – The produced certificate will list your family including the details of your guardian.<LineBreak/><LineBreak/>
+    
+    Family Registration Certificate is issued to applicants which shows family composition of the applicant 
+    (by birth or by marriage) registered with National Database and Registration Authority (NADRA).<LineBreak></LineBreak>
+    If a person is not registered in NADRA and does not hold 13 digit ID number, 
+    his/her data will not be reflected in FRC.
+        </TextBlock>
+
+        <Button Grid.Row="2"
+            x:Name="ApplyNowButton" Content="APPLY NOW" 
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center" 
+            Height="45" Width="268" Foreground="White"
+            FontFamily="Arial" FontSize="16"
+            FontWeight="Bold" 
+            Background="#FF009846" BorderThickness="0,0,0,0"
+            VerticalContentAlignment="Center" 
+            Click="ApplyNowButton_Click" />
+        <TextBlock Grid.Row="3"
+            TextWrapping="Wrap" 
+            FontFamily="Arial" 
+            FontSize="14"
+            VerticalAlignment="Top"
+            HorizontalAlignment="Center"
+            Foreground="White" Width="1100">
+        Family Registration Certificate is issued to applicants which shows family composition of the applicant (by birth or by marriage) registered with National Database and Registration Authority (NADRA). If a person is not registered in NADRA and does not hold 13 digit ID number, his/her data will not be reflected in FRC.
+        </TextBlock>
+        <Label Grid.Row="4"
+            Content="→ How can I apply for Child Registration Certificate?" 
+            Background="#152039" Foreground="#009846" 
+            FontFamily="Arial" FontSize="18" 
+            VerticalAlignment="Top" 
+            HorizontalContentAlignment="Left" Margin="-3,0,3,0"/>
+        <TextBlock Grid.Row="4"
+            TextWrapping="Wrap" 
+            FontFamily="Arial" 
+            FontSize="14"
+            VerticalAlignment="Top"
+            HorizontalAlignment="Left"
+            Foreground="White" Width="1100" Margin="0,31,0,0">
+        You can apply for your FRC by either visiting NADRA Registration Center (NRC) or through Pak-Identity website.
+NADRA Registration Center (NRC)<LineBreak/>
+You can apply for the Family Registration Certificate (FRC) by going to the nearest NADRA Registration Center (NRC).<LineBreak/>
+Following are the steps which you will be following at the NRC:
+        </TextBlock>
+
+        <Label Grid.Row="5"
+            Name="ByBirthLabel" Content="→ By Birth" 
+            Background="Transparent" Foreground="#009846" 
+            FontFamily="Arial" FontSize="18" 
+            VerticalAlignment="Center" HorizontalAlignment="Left"
+            Width="120" Cursor="Hand"
+            MouseLeftButtonDown="ByBirthLabel_MouseLeftButtonDown" />
+        <Label Grid.Row="5"
+            Name="ByMarriageLabel" Content="→ By Marriage" 
+            Background="Transparent" Foreground="#009846" 
+            FontFamily="Arial" FontSize="18" 
+            VerticalAlignment="Center" HorizontalAlignment="Left"
+            Width="120" Cursor="Hand"
+            MouseLeftButtonDown="ByMarriageLabel_MouseLeftButtonDown" Margin="259,0,0,0"/>
+        <Label Grid.Row="5"
+            Name="ByAdoptionLabel" Content="→ By Adoption" 
+            Background="Transparent" Foreground="#009846" 
+            FontFamily="Arial" FontSize="18" 
+            VerticalAlignment="Center" HorizontalAlignment="Left"
+            Width="150" Cursor="Hand"
+            MouseLeftButtonDown="ByAdoptionLabel_MouseLeftButtonDown" Margin="544,0,0,0"/>
+
+        <TextBlock Grid.Row="6"
+            Name="ByBirthText"
+            TextWrapping="Wrap" 
+            FontFamily="Arial" 
+            FontSize="14"
+            VerticalAlignment="Top"
+            HorizontalAlignment="Left"
+            Foreground="White" Width="808" Visibility="Hidden">
+            By Birth:
+    <LineBreak/>
+    • You will be issued a token
+    <LineBreak/>
+    • Photograph of minors shall be taken
+    <LineBreak/>
+    • Your data will be entered and reviewed by yourself
+    <LineBreak/>
+    • Your required FRC will be printed and handed over
+        </TextBlock>
+        <TextBlock Grid.Row="6"
+            Name="ByAdoptionText"
+            TextWrapping="Wrap" 
+            FontFamily="Arial" 
+            FontSize="14"
+            VerticalAlignment="Top"
+            HorizontalAlignment="Left"
+            Foreground="White" Width="808" Visibility="Hidden">
+        By Adoption
+    <LineBreak/>
+    In case the child is adopted and the presence of the child is necessary,
+    <LineBreak/>
+    • You will be issued a token
+    <LineBreak/>
+    • Photograph of minors shall be taken
+    <LineBreak/>
+    • The photograph of the adopted children will be taken
+    <LineBreak/>
+    • As per adoption rules, the child needs to be less than 21 years of age
+    <LineBreak/>
+    • Your data will be entered and reviewed by yourself
+    <LineBreak/>
+    • Your required FRC will be printed and handed over
+        </TextBlock>
+
+        <TextBlock Grid.Row="6"
+            Name="ByMarriageText"
+            TextWrapping="Wrap" 
+            FontFamily="Arial" 
+            FontSize="14"
+            VerticalAlignment="Top"
+            HorizontalAlignment="Left"
+            Foreground="White" Width="808" Visibility="Hidden">        
+       By Marriage
+    <LineBreak/>
+    In case children are less than 18 years of age, bring all the children along with you who are required to be added in the FRC.
+    <LineBreak/>
+    • You will be issued a token
+    <LineBreak/>
+    • Photograph of minors shall be taken
+    <LineBreak/>
+    • Pictures of all the children will be taken
+    <LineBreak/>
+    • Your data will be entered and reviewed by yourself
+    <LineBreak/>
+    • Your required FRC will be printed and handed over
+    <LineBreak/>
+    <LineBreak/>
+    In case children are equal to or greater than 18 years of age
+    <LineBreak/>
+    • You will be issued a token
+    <LineBreak/>
+    • Your data will be entered and reviewed by yourself
+    <LineBreak/>
+    • Your required FRC will be printed and handed over
+        </TextBlock>
+
+    </Grid>
+</Window>
